@@ -1,3 +1,5 @@
+#!/usr/bin/env fish
+
 function cdp 
     set old (pwd)
     while not test -e .env -o -e .idea -o -e .git
