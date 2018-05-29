@@ -2,7 +2,7 @@
 
 function cdp 
     set old (pwd)
-    while not test -e .env -o -e .idea -o -e .git
+    while not test -e .env -o -e .idea -o -e .git -o -e .hg
         cd ..
         
         if [ '/' = (pwd) ]
